@@ -1,4 +1,7 @@
 def (hello):
     print("Hello world!")
+def sudy_nebo_lichy(cislo)    
+    pass
 
-hello()
+sudy_lichy(5)
+sudy_lichy(1000000)
