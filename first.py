@@ -1,6 +1,4 @@
-def (hello):
-    print("Hello world!")
-def sudy_nebo_lichy(cislo)    
+def sudy_nebo_lichy(cislo)
     pass
 
 sudy_lichy(5)
