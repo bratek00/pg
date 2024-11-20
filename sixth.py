@@ -17,7 +17,6 @@ def download_url_and_get_all_hrefs(url):
 
         content = response.text
 
-        # Регулярное выражение для поиска ссылок в теге <a href="...">
         hrefs = re.findall(r'<a[^>]+href="([^"]+)"', content)
 
         return hrefs
