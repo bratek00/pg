@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title> Calculator </title>
+</head>
+
+<script>
+    function calculate() {
+        let num1 = parseFloat(document.getElementById('num1').value);
+
+        let num2 = parseFloat(document.getElementById('num2').value);
+        let sum = num1 + num2;
+
+        let r1 = document.getElementById('R1').value;
+
+        document.getElementById('result').innerText = 'Result: ' + sum;
+    }
+</script>
+<body>
+        <h1> Hi Use my Calc</h1>
+        <h2> Simple Calculator</h2>
+        
+
+<input type="number" id="num1" placeholder="Enter first number">
+
+<input type="number" id="num2" placeholder="Enter second number">
+
+<form>
+ <input type="radio" id="R1" name="R">
+ <label for="html">Plus</label><br>
+ <input type="radio" id="R2" name="R">
+ <label for="css">Minus</label><br>
+ <input type="radio" id="R3" name="R">
+ <label for="X">Multiplication</label>
+</form> 
+        
+<button onclick="calculate()">calculate</button>
+<p id="result"> sem se vrati vysledek </p>
+        
+
+</body>
+</html> 
