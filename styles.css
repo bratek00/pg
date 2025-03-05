@@ -1,0 +1,53 @@
+/* Nastavení pozadí pro celé tělo stránky */
+body {
+    background-color: #f0f8ff; /* Světle modré pozadí */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styly pro záhlaví */
+header {
+    background-color: #4682b4; /* Ocelově modrá */
+    color: white;
+    padding: 20px;
+}
+
+/* Různé fonty */
+.font-change .serif {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.font-change .sans-serif {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.font-change .monospace {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+}
+
+/* Různá pozadí sekcí */
+.background-change .light-bg {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.background-change .dark-bg {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Styly pro patičku */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
